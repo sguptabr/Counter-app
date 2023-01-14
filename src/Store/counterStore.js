@@ -14,10 +14,6 @@ const counterReducer = (state = initialState, action) => {
             return{
                 counter : state.counter -1
             }
-        case 'ADDWITH':
-            return{
-                counter : state.counter + action.num
-            }
         
         default:
             return state
