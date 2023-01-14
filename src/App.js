@@ -12,9 +12,9 @@ class App extends React.Component{
     return this.props.decre
   }
 
-  incremntwith = () =>{
+//   incremntwith = () =>{
 
-  }
+//   }
 
   disableButton = () => {
     return this.props.counter === 0 ? true : false; 
